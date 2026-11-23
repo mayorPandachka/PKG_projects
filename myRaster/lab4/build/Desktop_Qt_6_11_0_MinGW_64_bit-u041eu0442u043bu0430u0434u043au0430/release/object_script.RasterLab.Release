@@ -1,0 +1,13 @@
+release/main.o
+release/MainWindow.o
+release/GridPainter.o
+release/ChartWidget.o
+release/BenchmarkDialog.o
+release/RasterEngine.o
+release/VirtualGrid.o
+release/RasterTrace.o
+release/Benchmark.o
+release/moc_MainWindow.o
+release/moc_GridPainter.o
+release/moc_ChartWidget.o
+release/moc_BenchmarkDialog.o

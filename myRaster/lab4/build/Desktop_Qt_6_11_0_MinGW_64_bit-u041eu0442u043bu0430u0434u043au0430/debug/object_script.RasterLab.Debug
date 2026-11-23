@@ -1,0 +1,13 @@
+debug/main.o
+debug/MainWindow.o
+debug/GridPainter.o
+debug/ChartWidget.o
+debug/BenchmarkDialog.o
+debug/RasterEngine.o
+debug/VirtualGrid.o
+debug/RasterTrace.o
+debug/Benchmark.o
+debug/moc_MainWindow.o
+debug/moc_GridPainter.o
+debug/moc_ChartWidget.o
+debug/moc_BenchmarkDialog.o
