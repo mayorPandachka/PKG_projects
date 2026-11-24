@@ -9,7 +9,7 @@
 #include <QLabel>
 #include <QPushButton>
 
-#include "filters.h"   // <-- нужен здесь, чтобы Filters был известен
+#include "filters.h"
 
 class MainWindow : public QMainWindow {
     Q_OBJECT
@@ -25,15 +25,15 @@ private:
     QImage original;
     QImage result;
 
-    filters filter;   // <-- объект класса Filters
+    filters filter;
 
-    QLabel         *lblOriginal = nullptr;
-    QLabel         *lblResult   = nullptr;
-    QComboBox      *cbMethod    = nullptr;
-    QSpinBox       *sbWindow    = nullptr;
+    QLabel *lblOriginal = nullptr;
+    QLabel *lblResult   = nullptr;
+    QComboBox *cbMethod    = nullptr;
+    QSpinBox *sbWindow    = nullptr;
     QDoubleSpinBox *sbK         = nullptr;
-    QLabel         *lblWindow   = nullptr;
-    QLabel         *lblK        = nullptr;
+    QLabel *lblWindow   = nullptr;
+    QLabel *lblK        = nullptr;
 
     void updateParamVisibility();
 };
